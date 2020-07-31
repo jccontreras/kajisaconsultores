@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-    <div class="card" style="width: 1000px;">
-      <img src="@/assets/img/Revisoria.png" class="card-img-top"
-           style="width: 1000px; height: 200px">
-      <div class="card-body" style="width: 1000px">
+    <div class="card cardsize">
+      <img src="@/assets/img/Revisoria.png" class="card-img-top imgsize">
+      <div class="card-body cardsize">
         <p class="card-title">REVISORIA FISCAL</p>
         <label class="card-text">Para los contribuyentes, que de acuerdo con la Ley estén obligados
           a tener la figura de
@@ -30,3 +29,5 @@ export default {
   name: 'ContentReview',
 };
 </script>
+
+<style type="text/css" ref="style"/>

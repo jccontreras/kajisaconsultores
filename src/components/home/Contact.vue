@@ -78,7 +78,7 @@ export default {
       this.$fb.functions().httpsCallable('sendForm')({
         subject: 'Nuevo Mensaje de la PáginaWeb',
         text: `Please contact ${this.contact.name} at ${this.contact.email}. Their problem is ${this.contact.trouble}. Their phone is ${this.contact.phone}.`,
-        html: `Por favor contactar a <strong>${this.contact.name}</strong> al correo <strong>${this.contact.email}</strong>. <br/> Tiene el siguiente problema: <br/> <strong>${this.contact.trouble}</strong> .<br/>Su número telefonico es: <strong>${this.contact.phone}</strong>`,
+        html: `Por favor contactar a <strong>${this.contact.name}</strong> al correo <strong>${this.contact.email}</strong>. <br/> Tiene el siguiente problema: <br/> <strong>${this.contact.trouble}</strong> .<br/>Su número telefónico es: <strong>${this.contact.phone}</strong>`,
       })
         .then(() => {
           this.sent = true;
@@ -97,7 +97,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
   .cardhome {
     background-color: #e0d9d9;
     color: #4b4545;

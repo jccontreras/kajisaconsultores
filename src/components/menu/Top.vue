@@ -21,7 +21,7 @@
              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Servicios
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-menu">
             <router-link class="nav-link" :to="{name: 'taxes'}">
               Impuestos
             </router-link>
@@ -70,8 +70,8 @@ export default {
 };
 </script>
 
-<style>
-  .colorttop {
-    background-color: #e0d9d9;
+<style lang="scss">
+  .dropcolor {
+    background-color: #787575;
   }
 </style>

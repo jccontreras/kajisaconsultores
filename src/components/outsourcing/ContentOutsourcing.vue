@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-    <div class="card cardout" style="width: 1000px;">
-      <img src="@/assets/img/outsourcing.png" class="card-img-top"
-           style="width: 1000px; height: 200px">
-      <div class="card-body" style="width: 1000px">
+    <div class="card cardout cardsize">
+      <img src="@/assets/img/outsourcing.png" class="card-img-top imgsize">
+      <div class="card-body cardsize">
         <div class="accordion" id="accordionExample">
           <div class="card">
             <div class="card-header">
@@ -98,13 +97,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-  p {
-    font: small-caps 100%/200% serif;
-    color: darkred;
-  }
-  .cardout {
-    background-color: #e0d9d9;
-    color: #4b4545;
-  }
-</style>
+<style lang="scss" type="text/css" ref="style"/>

@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-    <div class="card" style="width: 1000px;">
-      <img src="@/assets/img/Auditoria.png" class="card-img-top"
-           style="width: 1000px; height: 200px">
-      <div class="card-body" style="width: 1000px">
+    <div class="card cardsize">
+      <img src="@/assets/img/Auditoria.png" class="card-img-top imgsize">
+      <div class="card-body cardsize">
         <div class="accordion" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
@@ -15,7 +14,6 @@
                 </button>
               </h2>
             </div>
-
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                  data-parent="#accordionExample">
               <div class="card-body">
@@ -76,9 +74,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-  p {
-    font: small-caps 100%/200% serif;
-    color: darkred;
-  }
-</style>
+<style lang="scss" type="text/css" ref="style"/>

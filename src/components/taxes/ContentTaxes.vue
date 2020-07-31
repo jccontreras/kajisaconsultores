@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-    <div class="card" style="width: 1000px;">
-      <img src="@/assets/img/Impuestos.png" class="card-img-top"
-           style="width: 1000px; height: 200px">
-      <div class="card-body" style="width: 1000px">
+    <div class="card cardsize">
+      <img src="@/assets/img/Impuestos.png" class="card-img-top imgsize">
+      <div class="card-body cardsize">
         <p class="card-title">IMPUESTOS</p>
         <label class="card-text">Las empresas altamente exitosas prevén los efectos tributarios
           antes de
@@ -28,9 +27,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-  p {
-    font: small-caps 100%/200% serif;
-    color: darkred;
-  }
-</style>
+<style lang="scss" type="text/css" ref="style"/>

@@ -1,6 +1,5 @@
 <template>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
-       style="height: 650px; width: 650px; align-content: center">
+  <div id="carouselExampleIndicators" class="carousel slide carouselsize" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -35,3 +34,5 @@ export default {
   name: 'Content1Home',
 };
 </script>
+
+<style lang="scss" type="text/css" ref="style"/>
