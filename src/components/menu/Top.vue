@@ -57,6 +57,11 @@
          target="_blank">
         <img src="@/assets/logo/Twitter.png" width="24" height="24" alt="">
       </a>
+      <a class="navbar-brand"
+         href="https://www.linkedin.com/company/kajisa-consultores"
+         target="_blank">
+        <img src="@/assets/logo/Linckedin.png" width="24" height="24" alt="">
+      </a>
       <a class="navbar-brand" href="https://www.youtube.com/channel/UCFjbIJsqnmMAseB-vX8wGvg" target="_blank">
         <img src="@/assets/logo/Youtube.png" width="24" height="24" alt="">
       </a>

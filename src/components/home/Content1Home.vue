@@ -1,5 +1,6 @@
 <template>
-  <div id="carouselExampleIndicators" class="carousel slide carouselsize" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade carouselsize"
+       data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -14,6 +15,15 @@
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub3.jpg" class="d-block w-100" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub4.jpg" class="d-block w-100" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub5.jpg" class="d-block w-100" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub6.jpg" class="d-block w-100" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
