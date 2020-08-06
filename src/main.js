@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import VueYouTubeEmbed from 'vue-youtube-embed';
 import * as firebase from 'firebase/app';
 import * as VueGoogleMaps from 'vue2-google-maps';
 import App from './App.vue';
@@ -14,6 +15,8 @@ const fb = firebase.initializeApp(firebaseConfig);
 Vue.fb = Vue.prototype.$fb = fb;
 
 Vue.config.productionTip = false;
+
+Vue.use(VueYouTubeEmbed, { global: true, componentId: 'youtube-media' });
 
 Vue.use(VueGoogleMaps, {
   load: {
