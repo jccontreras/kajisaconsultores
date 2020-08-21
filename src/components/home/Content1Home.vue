@@ -9,9 +9,17 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="@/assets/publicidad/pub8.jpeg" class="d-block w-100" alt="Eighth slide">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub9.jpeg" class="d-block w-100" alt="Ninth slide">
+      </div>
+      <div class="carousel-item">
         <img src="@/assets/publicidad/pub7.jpg" class="d-block w-100" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
           <label style="background-color: #8d0d0d; opacity:0.7;">
