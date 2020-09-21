@@ -14,13 +14,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="@/assets/publicidad/pub12.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
         <img src="@/assets/publicidad/gif/gif1.gif" class="d-block w-100">
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub11.jpeg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/publicidad/pub10.jpeg" class="d-block w-100">
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub8.jpeg" class="d-block w-100">
