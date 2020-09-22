@@ -11,9 +11,13 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="@/assets/publicidad/pub13.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
         <img src="@/assets/publicidad/pub12.jpeg" class="d-block w-100">
       </div>
       <div class="carousel-item">
