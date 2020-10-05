@@ -15,7 +15,10 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/publicidad/pub13.jpeg" class="d-block w-100">
+        <img src="@/assets/publicidad/pub14.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/gif/gif2.gif" class="d-block w-100">
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub12.jpeg" class="d-block w-100">
@@ -25,9 +28,6 @@
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub11.jpeg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/publicidad/pub8.jpeg" class="d-block w-100">
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub9.jpeg" class="d-block w-100">
