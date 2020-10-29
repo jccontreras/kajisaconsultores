@@ -10,9 +10,6 @@
     </div>
     <div class="row">
       <div class="col-md">
-        <content-calendar/>
-      </div>
-      <div class="col-md">
         <content-videos/>
       </div>
     </div>
@@ -23,7 +20,6 @@
 import Content1Home from '@/components/home/Content1Home.vue';
 import Contact from '@/components/home/Contact.vue';
 import ContentVideos from '@/components/home/ContentVideos.vue';
-import ContentCalendar from '@/components/home/ContentCalendar.vue';
 
 export default {
   name: 'Home',
@@ -31,7 +27,6 @@ export default {
     Content1Home,
     Contact,
     ContentVideos,
-    ContentCalendar,
   },
 };
 </script>
