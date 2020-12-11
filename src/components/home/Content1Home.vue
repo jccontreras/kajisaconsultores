@@ -8,49 +8,28 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/publicidad/pub14.jpg" class="d-block w-100">
+        <img src="@/assets/publicidad/navpub1-1.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub15.jpeg" class="d-block w-100">
+        <img src="@/assets/publicidad/navpub1-2.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub16.jpeg" class="d-block w-100">
+        <img src="@/assets/publicidad/navpub1-3.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/gif/gif2.gif" class="d-block w-100">
+        <img src="@/assets/publicidad/pub1-1.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub12.jpeg" class="d-block w-100">
+        <img src="@/assets/publicidad/pub1-2.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/gif/gif1.gif" class="d-block w-100">
+        <img src="@/assets/publicidad/pub1-3.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub11.jpeg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/publicidad/pub9.jpeg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/publicidad/pub5.jpg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/publicidad/pub1.jpg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/publicidad/pub2.jpg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/publicidad/pub3.jpg" class="d-block w-100">
+        <img src="@/assets/publicidad/pub17.jpeg" class="d-block w-100">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
