@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="container-fluid">
-    <img src="@/assets/img/bordefinal6.png" style="max-width: 100%">
     <div class="row">
       <div v-if="isOpen" class="col-2" style="max-width: 50%"><top/></div>
       <div class="col" style="top: 20px">
