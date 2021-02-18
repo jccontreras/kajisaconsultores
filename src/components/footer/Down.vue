@@ -1,23 +1,12 @@
 <template>
   <footer class="page-footer extend font-small blue pt-4">
-    <img v-if="sizescreen()" class="footsize" src="@/assets/footer/Footer.jpg" style="width: 100%;
-    height: 200px">
-    <img v-else class="footsize" src="@/assets/footer/Footer2.jpg" style="width: 100%;
-    height: 100px">
+    <img class="footsize" src="@/assets/footer/newfooter.jpg">
   </footer>
 </template>
 
 <script>
 export default {
   name: 'Down',
-  methods: {
-    sizescreen() {
-      if (window.screen.availWidth > 720) {
-        return true;
-      }
-      return false;
-    },
-  },
 };
 </script>
 
