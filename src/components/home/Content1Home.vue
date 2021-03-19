@@ -9,13 +9,17 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/publicidad/pub22.jpeg" class="d-block w-100">
+        <img src="@/assets/publicidad/fdh.jpeg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub21.jpg" class="d-block w-100">
+        <img src="@/assets/publicidad/pub23.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub22.jpeg" class="d-block w-100">
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub20.png" class="d-block w-100">
