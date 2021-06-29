@@ -40,7 +40,19 @@
           <textarea class="form-control" id="trouble" autocomplete="off"
                     v-model="contact.trouble" required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="auth" v-model="contact.auth">
+          <label class="form-check-label" for="auth" v-if="!seemore">
+            Autorizo a Kajisa Consultores
+            <a style="color: #821518; cursor: pointer" @click="seeMore"> ver mas...</a></label>
+          <label class="form-check-label" for="auth" v-else>
+            Autorizo a Kajisa Consultores S.A.S. para que almacene
+            y trate mis datos personales conforme a la política de tratamiento de datos de
+            Kajisa Consultores S.A.S.
+            <a style="color: #821518; cursor: pointer" @click="seeMore"> ver menos.</a></label>
+        </div>
+        <button type="submit" class="btn btn-primary" id="enviar"
+                :disabled="!contact.auth">Enviar</button>
       </form>
     </div>
   </div>
@@ -53,11 +65,13 @@ export default {
     return {
       sent: false,
       error: false,
+      seemore: false,
       contact: {
         name: null,
         email: null,
         phone: null,
         trouble: null,
+        auth: false,
       },
     };
   },
@@ -75,10 +89,16 @@ export default {
   },
   methods: {
     send() {
+      const authclient = 'Aceptado';
       this.$fb.functions().httpsCallable('sendForm')({
-        subject: 'Nuevo Mensaje de la PáginaWeb',
-        text: `Please contact ${this.contact.name} at ${this.contact.email}. Their problem is ${this.contact.trouble}. Their phone is ${this.contact.phone}.`,
-        html: `Por favor contactar a <strong>${this.contact.name}</strong> al correo <strong>${this.contact.email}</strong>. <br/> Tiene el siguiente problema: <br/> <strong>${this.contact.trouble}</strong> .<br/>Su número telefónico es: <strong>${this.contact.phone}</strong>`,
+        subject: 'Nuevo Mensaje de la Página Web',
+        text: `Please contact ${this.contact.name} at ${this.contact.email}. Their problem is ${this.contact.trouble}.
+         Their phone is ${this.contact.phone}. Their authorization is ${this.contact.auth}.`,
+        html: `Por favor contactar a <strong>${this.contact.name}</strong> al correo
+        <strong>${this.contact.email}</strong>.
+        <br/> Tiene el siguiente problema: <br/> <strong>${this.contact.trouble}</strong>.
+        <br/>Su número telefónico es: <strong>${this.contact.phone}</strong>.
+        <br/>Autorización de tratamiento de datos: <strong>${authclient}</strong>`,
       })
         .then(() => {
           this.sent = true;
@@ -91,7 +111,11 @@ export default {
           this.contact.email = null;
           this.contact.phone = null;
           this.contact.trouble = null;
+          this.contact.auth = false;
         });
+    },
+    seeMore() {
+      this.seemore = !this.seemore;
     },
   },
 };

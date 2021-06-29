@@ -11,6 +11,10 @@ import 'firebase/functions';
 
 const fb = firebase.initializeApp(firebaseConfig);
 
+// const appCheck = firebase.appCheck();
+
+// appCheck.activate('6LcqpWIbAAAAAFTZjDGsSoHm8-adecBMgn6ohSaN');
+
 // eslint-disable-next-line no-multi-assign
 Vue.fb = Vue.prototype.$fb = fb;
 
