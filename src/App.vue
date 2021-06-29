@@ -24,7 +24,7 @@
       </a>
     </div>
     <div class="row">
-      <div id="top" class="col-2" style="max-width: 50%">
+      <div id="top" class="col-2 color-menu" style="max-width: 300%">
         <top/>
       </div>
       <div class="col" style="top: 20px">
@@ -89,7 +89,7 @@ export default {
 </script>
 
 <style>
-.container-fluid {
-  background-color: #e0d9d9;
+.color-menu {
+  background-color: #dbd1d1;
 }
 </style>
