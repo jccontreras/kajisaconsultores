@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="card cardsize">
+    <div class="card cardsize" style="background-color: #dbd1d1">
       <img src="@/assets/img/Revisoria.png" class="card-img-top imgsize">
       <div class="card-body cardsize">
         <p class="card-title">REVISORIA FISCAL</p>

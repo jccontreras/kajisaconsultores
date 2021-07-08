@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <div class="accordion" id="accordionExample">
-      <div class="card">
+    <div class="accordion" id="accordionExample" >
+      <div class="card" style="background-color: #dbd1d1">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
             <button class="btn btn-link" type="button" data-toggle="collapse"
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" style="background-color: #dbd1d1">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card" style="background-color: #dbd1d1">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"

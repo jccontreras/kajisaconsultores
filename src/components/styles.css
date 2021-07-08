@@ -1,6 +1,11 @@
 .cardsize {
     min-width: 100%;
     max-width: 100%;
+    background-color: #dbd1d1;
+}
+
+.cardcolor {
+    background-color: #dbd1d1;
 }
 .imgsize {
     min-width: 100%;
