@@ -44,6 +44,11 @@
           Encuentranos
         </router-link>
       </li>
+      <li class="list-group-item licolor">
+        <router-link class="nav-link linkcolor" :to="{name: 'news'}">
+          Actualidades
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>
