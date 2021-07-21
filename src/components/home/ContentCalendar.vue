@@ -1,103 +1,19 @@
 <template>
   <div class="card cardhome" style="border: #e0d9d9">
-    <div class="card-body">
-      <h5 class="card-title">Calendario Renta Personas Naturales 2019</h5>
+    <div class="card-body" style="background-color: #dbd1d1;">
+      <h5 class="card-title">Calendario Renta Personas Naturales 2020</h5>
       <div class="container" style="max-height: 300px; overflow-y: auto">
-        <div class="row row-striped">
+        <div class="row row-striped" v-for="item in items" v-bind:key="item.day">
           <div class="col-2 text-right">
             <h2 class="display-8">
-              <span class="badge badge-secondary">13</span>
+              <span class="badge badge-secondary">{{item.day}}</span>
             </h2>
-            <h5 style="max-font-size: 100%">OCT</h5>
+            <h5 style="max-font-size: 100%">{{ item.month }}</h5>
           </div>
           <div class="col-10">
             <h8 class="text-uppercase"><strong> Fecha máxima de presentación</strong></h8>
             <h6 class="text-uppercase">Cédulas terminadas en</h6>
-            <h6 class="text-uppercase">13 - 14</h6>
-            <label>Vence la declaración de renta y complementarios</label>
-          </div>
-        </div>
-        <div class="row row-striped">
-          <div class="col-2 text-right">
-            <h2 class="display-8">
-              <span class="badge badge-secondary">14</span>
-            </h2>
-            <h5 style="max-font-size: 100%">OCT</h5>
-          </div>
-          <div class="col-10">
-            <h8 class="text-uppercase"><strong> Fecha máxima de presentación</strong></h8>
-            <h6 class="text-uppercase">Cédulas terminadas en</h6>
-            <h6 class="text-uppercase">11 - 12</h6>
-            <label>Vence la declaración de renta y complementarios</label>
-          </div>
-        </div>
-        <div class="row row-striped">
-          <div class="col-2 text-right">
-            <h2 class="display-8">
-              <span class="badge badge-secondary">15</span>
-            </h2>
-            <h5 style="max-font-size: 100%">OCT</h5>
-          </div>
-          <div class="col-10">
-            <h8 class="text-uppercase"><strong> Fecha máxima de presentación</strong></h8>
-            <h6 class="text-uppercase">Cédulas terminadas en</h6>
-            <h6 class="text-uppercase">09 - 10</h6>
-            <label>Vence la declaración de renta y complementarios</label>
-          </div>
-        </div>
-        <div class="row row-striped">
-          <div class="col-2 text-right">
-            <h2 class="display-8">
-              <span class="badge badge-secondary">16</span>
-            </h2>
-            <h5 style="max-font-size: 100%">OCT</h5>
-          </div>
-          <div class="col-10">
-            <h8 class="text-uppercase"><strong> Fecha máxima de presentación</strong></h8>
-            <h6 class="text-uppercase">Cédulas terminadas en</h6>
-            <h6 class="text-uppercase">07 - 08</h6>
-            <label>Vence la declaración de renta y complementarios</label>
-          </div>
-        </div>
-        <div class="row row-striped">
-          <div class="col-2 text-right">
-            <h2 class="display-8">
-              <span class="badge badge-secondary">19</span>
-            </h2>
-            <h5 style="max-font-size: 100%">OCT</h5>
-          </div>
-          <div class="col-10">
-            <h8 class="text-uppercase"><strong> Fecha máxima de presentación</strong></h8>
-            <h6 class="text-uppercase">Cédulas terminadas en</h6>
-            <h6 class="text-uppercase">05 - 06</h6>
-            <label>Vence la declaración de renta y complementarios</label>
-          </div>
-        </div>
-        <div class="row row-striped">
-          <div class="col-2 text-right">
-            <h2 class="display-8">
-              <span class="badge badge-secondary">20</span>
-            </h2>
-            <h5 style="max-font-size: 100%">OCT</h5>
-          </div>
-          <div class="col-10">
-            <h8 class="text-uppercase"><strong> Fecha máxima de presentación</strong></h8>
-            <h6 class="text-uppercase">Cédulas terminadas en</h6>
-            <h6 class="text-uppercase">03 - 04</h6>
-            <label>Vence la declaración de renta y complementarios</label>
-          </div>
-        </div>
-        <div class="row row-striped">
-          <div class="col-2 text-right">
-            <h2 class="display-8">
-              <span class="badge badge-secondary">21</span>
-            </h2>
-            <h5 style="max-font-size: 100%">OCT</h5>
-          </div>
-          <div class="col-10">
-            <h8 class="text-uppercase"><strong> Fecha máxima de presentación</strong></h8>
-            <h6 class="text-uppercase">Cédulas terminadas en</h6>
-            <h6 class="text-uppercase">01 - 02</h6>
+            <h6 class="text-uppercase">{{ item.cedulas }}</h6>
             <label>Vence la declaración de renta y complementarios</label>
           </div>
         </div>
@@ -107,9 +23,19 @@
 </template>
 
 <script>
+import datos from '@/assets/json/calendarRP2020.json';
+
 export default {
   name: 'ContentCalendar',
+  props: {
+    msg: String,
+  },
+  computed: {
+    items() {
+      return datos.map((item) => item);
+    },
+  },
 };
 </script>
 
-<style lang="scss" type="text/css" ref="style"/>
+<style lang="scss" type="text/css" ref="styles.css"/>

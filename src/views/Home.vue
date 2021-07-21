@@ -8,18 +8,25 @@
         <contact/>
       </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <content-calendar/>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import Content1Home from '@/components/home/Content1Home.vue';
 import Contact from '@/components/home/Contact.vue';
+import ContentCalendar from '@/components/home/ContentCalendar.vue';
 
 export default {
   name: 'Home',
   components: {
     Content1Home,
     Contact,
+    ContentCalendar,
   },
 };
 </script>
