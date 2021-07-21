@@ -9,7 +9,9 @@
         <a href="https://twitter.com/NoticiasCaracol/status/1408130994830561288?s=08" target="_blank">Noticia</a>
       </label>
       <br>
-      <a class="btn btn-primary btn-md" href="#" @click="openDec688" role="button">Ver Decreto</a>
+      <a class="btn btn-primary btn-md" target="_blank"
+         href="https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20688%20DEL%2024%20DE%20JUNIO%20DE%202021.pdf"
+         role="button">Ver Decreto</a>
     </div>
     <modal-dec688/>
   </div>
