@@ -23,7 +23,7 @@
         <img src="@/assets/logo/Youtube.png" width="24" height="24" alt="">
       </a>
     </div>
-    <div class="row">
+    <div id="nav" class="row">
       <div id="top" class="col-2 color-menu" style="max-width: 300%">
         <top/>
       </div>
@@ -91,5 +91,9 @@ export default {
 <style>
 .color-menu {
   background-color: #dbd1d1;
+}
+
+#nav a.router-link-exact-active {
+  color: #821518;
 }
 </style>
