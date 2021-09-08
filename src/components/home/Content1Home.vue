@@ -1,6 +1,7 @@
 <template>
-  <div id="carouselExampleIndicators" class="carousel slide carousel-fade carouselsize"
-       data-ride="carousel">
+  <div id="carouselExampleIndicators"
+       class="carousel slide carousel-fade carouselsize shadow-lg"
+       data-ride="carousel" style="min-height: 100%">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -16,6 +17,14 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="@/assets/publicidad/pubjim.png" class="d-block w-100">
+        <div class="my-2" style="text-align: center">
+          <router-link :to="{name: 'news'}" style="color: #821518">
+            Quiero saber más...
+          </router-link>
+        </div>
+      </div>
+      <div class="carousel-item">
         <img src="@/assets/publicidad/pub29.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">

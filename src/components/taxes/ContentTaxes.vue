@@ -1,10 +1,11 @@
 <template>
   <div class="container">
-    <div class="card cardsize" style="background-color: #dbd1d1">
+    <div class="card cardsize shadow-lg mb-5 rounded" style="background-color: #dbd1d1">
       <img src="@/assets/img/Impuestos.png" class="card-img-top imgsize">
       <div class="card-body cardsize">
         <p class="card-title">IMPUESTOS</p>
-        <label class="card-text">Las empresas altamente exitosas prevén los efectos tributarios
+        <label class="card-text">Las empresas altamente exitosas prevén los
+          efectos tributarios
           antes de
           implementar sus
           decisiones, de

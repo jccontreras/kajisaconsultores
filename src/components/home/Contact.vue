@@ -1,16 +1,16 @@
 <template>
-  <div class="card cardhome">
+  <div class="card cardhome shadow-lg mb-5" style="min-height: 100%">
     <div class="card-header">
       <h5>Contactanos</h5>
     </div>
     <div class="card-body">
-      <div class="alert alert-danger" role="alert" v-if="error">
+      <div class="alert alert-danger shadow-lg" role="alert" v-if="error">
         <h4 class="alert-heading">Ups!</h4>
         <label>Hubo un problema al enviar tu requerimiento</label>
         <hr>
         <label class="mb-0">Por favor intentalo de nuevo más tarde.</label>
       </div>
-      <div class="alert alert-success" role="alert" v-if="sent">
+      <div class="alert alert-success shadow-lg" role="alert" v-if="sent">
         <h4 class="alert-heading">Listo!</h4>
         <label>Tenemos tu requerimiento</label>
         <hr>
@@ -51,7 +51,7 @@
             Kajisa Consultores S.A.S.
             <a style="color: #821518; cursor: pointer" @click="seeMore"> ver menos.</a></label>
         </div>
-        <button type="submit" class="btn btn-primary" id="enviar"
+        <button type="submit" class="btn btn-outline-success" id="enviar"
                 :disabled="!contact.auth">Enviar</button>
       </form>
     </div>

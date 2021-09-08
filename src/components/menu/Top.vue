@@ -1,6 +1,6 @@
 <template>
   <div class="licolor container-fluid">
-    <router-link class="nav-link" :to="{name: 'home'}">
+    <router-link class="nav-link" :to="{name: 'home'}" title="Home">
       <img src="@/assets/logo/kajlogo.png" style="max-height: 100%; max-width: 130%">
     </router-link>
     <ul class="list-group list-group-flush">
@@ -12,7 +12,10 @@
       <li class="list-group-item licolor">
         <a class="nav-link linkcolor" href="#" @click="openSubMenu">
           Servicios
-          <img src="@/assets/menu/arrowdown.png" style="max-height: 10%; max-width: 10%">
+          <img v-if="subisclose" src="@/assets/menu/arrownext.png"
+               style="max-height: 10%; max-width: 10%">
+          <img v-else src="@/assets/menu/arrowdown.png"
+               style="max-height: 10%; max-width: 10%">
         </a>
       </li>
       <li id="submenu" class="list-group-item licolor">
@@ -60,7 +63,7 @@ export default {
   name: 'Top',
   data() {
     return {
-      subisclose: false,
+      subisclose: true,
     };
   },
   methods: {

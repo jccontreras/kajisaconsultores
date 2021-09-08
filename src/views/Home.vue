@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md">
+      <div class="col-md my-4">
         <content1-home/>
       </div>
-      <div class="col-md">
+      <div class="col-md my-4">
         <contact/>
       </div>
     </div>

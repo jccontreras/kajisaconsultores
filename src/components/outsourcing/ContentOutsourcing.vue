@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="card cardout cardsize" style="background-color: #dbd1d1">
+    <div class="card cardout cardsize shadow-lg p-3 mb-5" style="background-color: #dbd1d1">
       <img src="@/assets/img/outsourcing.png" class="card-img-top imgsize">
       <div class="card-body cardsize">
         <div class="accordion" id="accordionExample">

@@ -1,35 +1,29 @@
 <template>
   <div class="container">
-    <div class="jumbotron" style="background-color: #dbd1d1">
-      <h1 class="display-5" style="color: darkred">Nuevo Decreto N° 688 de 2021</h1>
-      <label class="lead">Presidente Duque firma decreto que otorga beneficios
-        a las empresas que contraten jóvenes entre los 18 y los 28 años.</label>
+    <div class="jumbotron shadow-lg p-3 mb-5 rounded" style="background-color: #dbd1d1"
+         v-for="news in newslist" v-bind:key="news.index">
+      <h1 class="display-5" style="color: darkred">{{news.title}}</h1>
+      <label class="lead">{{news.description}}</label>
       <hr class="my-4">
-      <label>Para más información puede ver la
-        <a href="https://twitter.com/NoticiasCaracol/status/1408130994830561288?s=08" target="_blank">Noticia</a>
+      <label>{{news.lbl}}
+        <a :href="news.link" target="_blank">{{news.lblink}}</a>
       </label>
       <br>
-      <a class="btn btn-primary btn-md" target="_blank"
-         href="https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20688%20DEL%2024%20DE%20JUNIO%20DE%202021.pdf"
-         role="button">Ver Decreto</a>
+      <a class="btn btn-outline-secondary btn-md" target="_blank"
+         :href="news.linkbtn"
+         role="button">{{news.btn}}</a>
     </div>
-    <modal-dec688/>
   </div>
 </template>
 
 <script>
-import ModalDec688 from '@/components/news/decreto688/ModalDec688.vue';
+import newsdata from '@/assets/news/news.json';
 
 export default {
   name: 'ContentNews',
-  components: {
-    ModalDec688,
-  },
-  methods: {
-    openDec688() {
-      // eslint-disable-next-line no-undef
-      $('#dec688Modal')
-        .modal('show');
+  computed: {
+    newslist() {
+      return newsdata.map((news) => news);
     },
   },
 };

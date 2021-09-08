@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Kajisa te invita a capacitarte gratuitamente",
+    "description": "Te invitamos a participar en le curso MOOCS  \"TIPS para la declaración de renta personas naturales en Colombia\" realizado por la Universidad Politecnico Grancolombiano, que es ofrecido de manera gratuito y así de una manera práctica y entendible puedan identificar las variables que se deben considerar al momento de la presentación del impuesto de Renta.",
+    "lbl": "Para más información puedes ver los",
+    "lblink": "Cursos",
+    "link": "https://conocimientoparatodos.poligran.edu.co/",
+    "btn": "Inscribirme Ahora",
+    "linkbtn": "https://conocimientoparatodos.poligran.edu.co/site/ingreso"
+  },
+  {
+    "title": "Nuevo Decreto N° 688 de 2021",
+    "description": "Presidente Duque firma decreto que otorga beneficios a las empresas que contraten jóvenes entre los 18 y los 28 años.",
+    "lbl": "Para más información puedes ver la",
+    "lblink": "Noticia",
+    "link": "https://twitter.com/NoticiasCaracol/status/1408130994830561288?s=08",
+    "btn": "Ver Decreto",
+    "linkbtn": "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20688%20DEL%2024%20DE%20JUNIO%20DE%202021.pdf"
+  }
+]

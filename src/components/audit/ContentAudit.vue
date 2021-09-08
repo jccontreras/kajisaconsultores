@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="card cardsize" style="background-color: #dbd1d1">
+    <div class="card cardsize shadow-lg mb-5 rounded" style="background-color: #dbd1d1">
       <img src="@/assets/img/Auditoria.png" class="card-img-top imgsize">
       <div class="card-body cardsize" >
         <div class="accordion" id="accordionExample">
