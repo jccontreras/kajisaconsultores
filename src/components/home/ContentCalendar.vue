@@ -7,7 +7,8 @@
         </div>
         <div class="col-md">
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Ultimos dos números de su cédula"
+            <input type="text" class="form-control"
+                   placeholder="Digita los dos ultimos números de tu cédula"
                    aria-label="Recipient's username" aria-describedby="basic-addon2" id="search"
                    v-model="search">
             <div class="input-group-append">
