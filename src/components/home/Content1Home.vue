@@ -14,9 +14,17 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="@/assets/publicidad/pub31.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub30.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
         <img src="@/assets/publicidad/pubjim.png" class="d-block w-100">
         <div class="my-2" style="text-align: center">
           <router-link :to="{name: 'news'}" style="color: #821518">
