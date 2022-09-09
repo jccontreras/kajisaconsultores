@@ -16,6 +16,9 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -36,16 +39,31 @@
         <img src="@/assets/publicidad/pub29.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub28.jpg" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
         <img src="@/assets/publicidad/pub27.jpeg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub26.jpg" class="d-block w-100">
+        <img src="@/assets/publicidad/pub32.jpeg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/publicidad/pub25.jpg" class="d-block w-100">
+        <img src="@/assets/publicidad/pub33.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub34.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub35.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub36.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub37.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub38.jpeg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/publicidad/pub26.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
         <img src="@/assets/publicidad/pub22.jpeg" class="d-block w-100">
